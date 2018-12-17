@@ -30,10 +30,12 @@ var length = 4;
 var width = 5;
 var height = 6;
 var volume=volume(4,5,6);
+document.getElementById("demo6").innerHTML = "Volume of a cuboid  is " + volume; 
+"<br>"
 var person = {firstName:"Nimal" , lastName:" Raj" , age:" 15", city:"Kandy"};
 var course = {courseName:"BIT" , courseFee:" Rs 150 000" , startDate:" 12.06.2018" , center:" Our Office"};
-document.getElementById("person").innerHTML = "My name is " + person.firstName + person.lastName + "." + "I am" + person.age + "years old." + "I live in " + person.city + ".";
-document.getElementById("bit").innerHTML = "Course Name: " + course.courseName + "<br>" + "Course Fee:" + course.courseFee + "<br>" + "Start Date:" + course.startDate + "<br>" + "Center:" + course.center;
+document.getElementById("demo7").innerHTML = "My name is " + person.firstName + person.lastName + "." +" "+ "I am" + person.age + "years old." + " " + "I live in " + person.city + ".";
+document.getElementById("demo8").innerHTML = "Course Name: " + course.courseName + "<br>" + "Course Fee:" + course.courseFee + "<br>" + "Start Date:" + course.startDate + "<br>" + "Center:" + course.center;
 function addNum(x, y) {
   return x + y;
 }
